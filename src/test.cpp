@@ -29,6 +29,14 @@ TEST(Calc, ArithmeticTest3) {
   ASSERT_EQ(std::round(rez * 10000000), std::round(calc * 10000000));
 }
 
+TEST(Calc, ArithmeticTest4) {
+  std::string str = "10*(2+3)";
+  s21::Model model(str);
+  double rez = model.Calculate();
+  double calc = 50;
+  ASSERT_EQ(rez,calc);
+}
+
 TEST(Calc, ModTest1) {
   std::string str = "8mod4";
   s21::Model model(str);
@@ -337,6 +345,13 @@ TEST(Model, GetSymbolInvalidChar) {
   s21::Model model(iss.str());
   ASSERT_THROW(model.Calculate(), std::invalid_argument);
 }
+
+// TEST(Model, GetSymbolInvalidNumber) {
+//   std::string str = "12.34.56";
+//   std::istringstream iss(str);
+//   s21::Model model(iss.str());
+//   ASSERT_THROW(model.Calculate(), std::invalid_argument);
+// }
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);

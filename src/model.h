@@ -36,6 +36,7 @@ class Model {
   };
 
  public:
+  Model() : p_stream(nullptr), p_stream_string("") {}
   explicit Model(std::string initString);
   ~Model();
   double Calculate();
@@ -51,7 +52,16 @@ class Model {
   double Pow(bool get);
   double Expression(bool get);
   std::string Parser();
+  void Check(std::string str);
   void ReplaceSubstrings(std::string& str);
+
+
+ public:
+  // bonus
+  std::vector<double> CreditCalculations(double sum_credit, double time_credit, double per, bool check);
+  std::vector<double> DepositCalculations(bool check, double deposit_term, double deposit_amount, double interest_rate,
+                                          double tax_rate, double replenishments_month, double replenishments_sum,
+                                          double partial_withdrawals_month, double partial_withdrawals_sum);
 };
 
 }  // namespace s21
