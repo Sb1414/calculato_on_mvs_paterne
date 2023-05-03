@@ -207,27 +207,6 @@ QPushButton:pressed {
     <string>Переплата:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="interes_rate">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>180</y>
-     <width>251</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="monthly_payment">
    <property name="geometry">
     <rect>
@@ -394,48 +373,6 @@ QPushButton:pressed {
     <string>Общая сумма оплаты:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="total_credit_amount">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>80</y>
-     <width>251</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="term">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>130</y>
-     <width>251</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
@@ -581,6 +518,75 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>Общая сумма кредита:</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="total_credit_amount">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>70</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <double>100.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>99990000.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="term">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>120</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>720</number>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="interes_rate">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>170</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <double>0.010000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>100.000000000000000</double>
    </property>
   </widget>
  </widget>

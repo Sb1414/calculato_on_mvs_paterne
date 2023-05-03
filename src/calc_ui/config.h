@@ -6,4 +6,4 @@
 #define QCP_LIB_VERSION_MINOR "1"
 #define QCP_LIB_VERSION_PATCH "1"
 
-#endif // QCP_LIB_CONFIG_H
+#endif  // QCP_LIB_CONFIG_H

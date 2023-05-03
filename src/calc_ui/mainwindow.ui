@@ -148,7 +148,7 @@ border: none;
      </font>
     </property>
     <property name="text">
-     <string/>
+     <string>0</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -158,29 +158,6 @@ border: none;
     </property>
     <property name="margin">
      <number>8</number>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>440</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::RightToLeft</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">text-align: center;</string>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;x1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="y1">
@@ -204,52 +181,6 @@ border: none;
     </property>
     <property name="text">
      <string>5</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_5">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>490</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::RightToLeft</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">text-align: center;</string>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;y2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_4">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>440</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::RightToLeft</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">text-align: center;</string>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;y1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QCustomPlot" name="widget" native="true">
@@ -288,29 +219,6 @@ border: none;
     </property>
     <property name="text">
      <string>5</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>490</y>
-      <width>31</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::RightToLeft</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">text-align: center;</string>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;x2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="x2">
@@ -368,282 +276,6 @@ QPushButton:pressed {
 </string>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="3" column="3">
-      <widget class="QPushButton" name="pushButton_6">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #414141;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>6</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QPushButton" name="pushButton_atan">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>atan</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="4">
-      <widget class="QPushButton" name="pushButton_plus">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	background-color: #ffcc00;
-	color: #1a1400;
-	font-family: Rubik;
-	font-size: 16pt;
-	font-weight: 600;
-	border: none;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton:hover {
-	background-color: #fcda53;
-}
-
-QPushButton:pressed {
-	background-color: #fce083;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>+</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
-      <widget class="QPushButton" name="pushButton_5">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #414141;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>5</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="3">
-      <widget class="QPushButton" name="pushButton_backspace">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>&lt;</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QPushButton" name="pushButton_asin">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>asin</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QPushButton" name="pushButton_tan">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>tan</string>
-       </property>
-      </widget>
-     </item>
      <item row="5" column="2">
       <widget class="QPushButton" name="pushButton_0">
        <property name="sizePolicy">
@@ -684,45 +316,8 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
-     <item row="2" column="4">
-      <widget class="QPushButton" name="pushButton_mul">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	background-color: #ffcc00;
-	color: #1a1400;
-	font-family: Rubik;
-	font-size: 16pt;
-	font-weight: 600;
-	border: none;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton:hover {
-	background-color: #fcda53;
-}
-
-QPushButton:pressed {
-	background-color: #fce083;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>x</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QPushButton" name="pushButton_7">
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_mod">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -743,7 +338,7 @@ QPushButton:pressed {
 }
 
 QPushButton {
-	background-color: #414141;
+	background-color: #232323;
 	border: none;
 }
 
@@ -757,7 +352,47 @@ QPushButton:pressed {
 </string>
        </property>
        <property name="text">
-        <string>7</string>
+        <string>mod</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="pushButton_pow">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>^</string>
        </property>
       </widget>
      </item>
@@ -841,362 +476,6 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
-     <item row="5" column="0">
-      <widget class="QPushButton" name="pushButton_sqrt">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>sqrt</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="3">
-      <widget class="QPushButton" name="pushButton_9">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #414141;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>9</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="2">
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #414141;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>2</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="QPushButton" name="pushButton_cos">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>cos</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QPushButton" name="pushButton_pow">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>^</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="4">
-      <widget class="QPushButton" name="pushButton_div">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	background-color: #ffcc00;
-	color: #1a1400;
-	font-family: Rubik;
-	font-size: 16pt;
-	font-weight: 600;
-	border: none;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton:hover {
-	background-color: #fcda53;
-}
-
-QPushButton:pressed {
-	background-color: #fce083;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>÷</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="2">
-      <widget class="QPushButton" name="pushButton_8">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #414141;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>8</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="1">
-      <widget class="QPushButton" name="pushButton_log">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>log</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="3">
-      <widget class="QPushButton" name="pushButton_dot">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #414141;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>.</string>
-       </property>
-      </widget>
-     </item>
      <item row="4" column="3">
       <widget class="QPushButton" name="pushButton_3">
        <property name="sizePolicy">
@@ -1237,47 +516,8 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
-     <item row="0" column="2">
-      <widget class="QPushButton" name="pushButton_round_bracket">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>( )</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="4">
-      <widget class="QPushButton" name="pushButton_minus">
+     <item row="4" column="4">
+      <widget class="QPushButton" name="pushButton_plus">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -1309,7 +549,47 @@ QPushButton:pressed {
 </string>
        </property>
        <property name="text">
-        <string>-</string>
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButton_sqrt">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>sqrt</string>
        </property>
       </widget>
      </item>
@@ -1353,8 +633,8 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
-     <item row="5" column="4">
-      <widget class="QPushButton" name="pushButton_equals">
+     <item row="1" column="4">
+      <widget class="QPushButton" name="pushButton_div">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -1386,7 +666,7 @@ QPushButton:pressed {
 </string>
        </property>
        <property name="text">
-        <string>=</string>
+        <string>÷</string>
        </property>
       </widget>
      </item>
@@ -1429,6 +709,239 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="pushButton_dot">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="pushButton_mul">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color: #ffcc00;
+	color: #1a1400;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+	border: none;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton:hover {
+	background-color: #fcda53;
+}
+
+QPushButton:pressed {
+	background-color: #fce083;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="pushButton_pi">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>pi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_asin">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>asin</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="pushButton_minus">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color: #ffcc00;
+	color: #1a1400;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+	border: none;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton:hover {
+	background-color: #fcda53;
+}
+
+QPushButton:pressed {
+	background-color: #fce083;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
      <item row="6" column="0">
       <widget class="QPushButton" name="pushButton_ln">
        <property name="sizePolicy">
@@ -1465,6 +978,202 @@ QPushButton:pressed {
        </property>
        <property name="text">
         <string>ln</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="pushButton_equals">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color: #ffcc00;
+	color: #1a1400;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+	border: none;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton:hover {
+	background-color: #fcda53;
+}
+
+QPushButton:pressed {
+	background-color: #fce083;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_atan">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>atan</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButton_backspace">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton_tan">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>tan</string>
        </property>
       </widget>
      </item>
@@ -1508,7 +1217,324 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
+     <item row="4" column="2">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="pushButton_log">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>log</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="pushButton_cos">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>cos</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+QPushButton {
+	background-color: #414141;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="pushButton_exp">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>exp</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="pushButton_x">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+QPushButton {
+	background-color: #232323;
+	border: none;
+}
+
+QPushButton:hover {
+	background-color: #666;
+}
+
+QPushButton:pressed {
+	background-color: #888;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
       <widget class="QPushButton" name="pushButton_plusminus">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
@@ -1547,8 +1573,8 @@ QPushButton:pressed {
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton_x">
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_round_bracket_R">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -1564,7 +1590,6 @@ QPushButton:pressed {
 	font-family: Rubik;
 	font-size: 18pt;
 	font-weight: 600;
-	margin-top: 4px;
 	margin-bottom: 4px;
 }
 
@@ -1583,12 +1608,12 @@ QPushButton:pressed {
 </string>
        </property>
        <property name="text">
-        <string>X</string>
+        <string> )</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="0">
-      <widget class="QPushButton" name="pushButton_mod">
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_round_bracket_L">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -1604,46 +1629,6 @@ QPushButton:pressed {
 	font-family: Rubik;
 	font-size: 18pt;
 	font-weight: 600;
-	margin-top: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>mod</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="2">
-      <widget class="QPushButton" name="pushButton_exp">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
 	margin-bottom: 4px;
 }
 
@@ -1662,28 +1647,88 @@ QPushButton:pressed {
 </string>
        </property>
        <property name="text">
-        <string>exp</string>
+        <string>(</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="4">
-      <widget class="QPushButton" name="pushButton_graph">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>440</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x Max</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>490</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x Min</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>490</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>y Min</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>440</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>y Max</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_graph">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>477</y>
+      <width>70</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
 	color: white;
 	font-family: Rubik;
 	font-size: 18pt;
 	font-weight: 600;
-	margin-top: 4px;
 }
 
 QPushButton {
@@ -1699,66 +1744,25 @@ QPushButton:pressed {
 	background-color: #5c5c5c;
 }
 </string>
-       </property>
-       <property name="text">
-        <string>graph</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="3">
-      <widget class="QPushButton" name="pushButton_pi">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-top: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-       </property>
-       <property name="text">
-        <string>pi</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    </property>
+    <property name="text">
+     <string>graph</string>
+    </property>
    </widget>
    <zorder>credit</zorder>
    <zorder>deposit</zorder>
    <zorder>y2</zorder>
    <zorder>result</zorder>
-   <zorder>textEdit_2</zorder>
    <zorder>y1</zorder>
-   <zorder>textEdit_5</zorder>
-   <zorder>textEdit_4</zorder>
    <zorder>x1</zorder>
-   <zorder>textEdit_3</zorder>
    <zorder>x2</zorder>
    <zorder>gridLayoutWidget</zorder>
    <zorder>widget</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>pushButton_graph</zorder>
   </widget>
  </widget>
  <customwidgets>

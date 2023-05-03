@@ -14,7 +14,10 @@ Model::Model(std::string initString) {
   }
 }
 
-Model::~Model() {}
+Model::~Model() {
+  delete p_stream;
+  p_stream = nullptr;
+}
 
 void Model::GetSymbol() {
   char ch;
@@ -25,8 +28,8 @@ void Model::GetSymbol() {
     current = END;
   } else if (ch == MULT || ch == DIV || ch == PLUS || ch == MINUS ||
              ch == MOD || ch == POW || ch == SIN || ch == COS || ch == TAN ||
-             ch == ATAN || ch == ASIN || ch == ATAN || ch == ACOS || ch == SQRT ||
-             ch == LOG || ch == LN || ch == ROUNDBRACKET_L ||
+             ch == ATAN || ch == ASIN || ch == ATAN || ch == ACOS ||
+             ch == SQRT || ch == LOG || ch == LN || ch == ROUNDBRACKET_L ||
              ch == ROUNDBRACKET_R) {
     current = type_t(ch);
   } else if (isdigit(ch) || ch == '.') {
@@ -244,88 +247,96 @@ double Model::Calculate() {
   }
   if (p_stream != nullptr) {
     delete p_stream;
+    p_stream = nullptr;
   }
   return tmp;
 }
 
-std::vector<double> Model::CreditCalculations(double sum_credit, double time_credit,
-                                          double per, bool check) {
-    std::vector<double> rez;
-    if (check) {
-        double month_pay = 0.0, over_pay = 0.0, all_pay = 0.0;
-        double per_m = (per / 12.0) / 100;
-        month_pay = per_m * pow(1 + per_m, time_credit) /
-                    (pow(1 + per_m, time_credit) - 1) * sum_credit;
-        over_pay = month_pay * time_credit - sum_credit;
-        all_pay = over_pay + sum_credit;
-        rez = {all_pay, over_pay, month_pay};
-    } else {
-        double overpayment = 0, monthly_payment = 0, first_month_payment = 0, last_month_payment = 0, total_payment = 0;
-        double rest = sum_credit;
-        double monthly = 0;
-        double monthly_interes_rate = per / (100 * 12);
-        for (int i = 0; i < time_credit; i++) {
-            if (i == 0) {
-                first_month_payment = rest * monthly_interes_rate + sum_credit / time_credit;
-                total_payment += first_month_payment;
-                rest -= first_month_payment;
-            } else if (i == (time_credit - 1)) {
-                last_month_payment = rest * monthly_interes_rate + sum_credit / time_credit;
-                total_payment += last_month_payment;
-                rest -= last_month_payment;
-            } else {
-                monthly = rest * monthly_interes_rate + sum_credit / time_credit;
-                total_payment += monthly;
-                rest -= monthly;
-            }
-        }
-        overpayment = total_payment - sum_credit;
-        rez = {first_month_payment, last_month_payment, total_payment, overpayment};
+std::vector<double> Model::CreditCalculations(double sum_credit,
+                                              double time_credit, double per,
+                                              bool check) {
+  std::vector<double> rez;
+  if (check) {
+    double month_pay = 0.0, over_pay = 0.0, all_pay = 0.0;
+    double per_m = (per / 12.0) / 100;
+    month_pay = per_m * pow(1 + per_m, time_credit) /
+                (pow(1 + per_m, time_credit) - 1) * sum_credit;
+    over_pay = month_pay * time_credit - sum_credit;
+    all_pay = over_pay + sum_credit;
+    rez = {all_pay, over_pay, month_pay};
+  } else {
+    double overpayment = 0, first_month_payment = 0, last_month_payment = 0,
+           total_payment = 0;
+    double rest = sum_credit;
+    double monthly = 0;
+    double monthly_interes_rate = per / (100 * 12);
+    for (int i = 0; i < time_credit; i++) {
+      if (i == 0) {
+        first_month_payment =
+            rest * monthly_interes_rate + sum_credit / time_credit;
+        total_payment += first_month_payment;
+        rest -= first_month_payment;
+      } else if (i == (time_credit - 1)) {
+        last_month_payment =
+            rest * monthly_interes_rate + sum_credit / time_credit;
+        total_payment += last_month_payment;
+        rest -= last_month_payment;
+      } else {
+        monthly = rest * monthly_interes_rate + sum_credit / time_credit;
+        total_payment += monthly;
+        rest -= monthly;
+      }
     }
+    overpayment = total_payment - sum_credit;
+    rez = {last_month_payment, first_month_payment, total_payment, overpayment};
+  }
   return rez;
 }
 
-std::vector<double> Model::DepositCalculations(bool check, double deposit_term, double deposit_amount, double interest_rate,
-                                               double tax_rate, double replenishments_month, double replenishments_sum,
-                                               double partial_withdrawals_month, double partial_withdrawals_sum) {
-    double accrued_interest = 0, tax_amount = 0, deposit_end = 0;
-    if (check) {
-            double accrued_month_interest = 0;
-            double month_tax_amount = 0;
-            for (int i = 0; i < deposit_term; i++) {
-                accrued_month_interest = (((deposit_amount/100)*interest_rate)/12);
-                month_tax_amount = accrued_month_interest * (tax_rate / 100);
-                accrued_month_interest = accrued_month_interest - month_tax_amount;
-                deposit_amount += accrued_month_interest;
-                accrued_interest += accrued_month_interest;
-                tax_amount += month_tax_amount;
-                if (i == replenishments_month && replenishments_sum > 0) {
-                    deposit_amount += replenishments_sum;
-                }
-                if (i == partial_withdrawals_month && partial_withdrawals_sum > 0) {
-                    deposit_amount -= partial_withdrawals_sum;
-                }
-            }
-        } else if (partial_withdrawals_month != 0 || replenishments_month != 0) {
-            double accrued_month_interest = 0;
-            for (int i = 0; i < deposit_term; i++) {
-                accrued_month_interest = (((deposit_amount/100)*interest_rate)/12);
-                accrued_interest += accrued_month_interest;
-                if (i == replenishments_month && replenishments_sum > 0) {
-                    deposit_amount += replenishments_sum;
-                }
-                if (i == partial_withdrawals_month && partial_withdrawals_sum > 0) {
-                    deposit_amount -= partial_withdrawals_sum;
-                }
-            }
-            tax_amount = accrued_interest * (tax_rate / 100);
-            accrued_interest = accrued_interest - tax_amount;
-        } else {
-            accrued_interest = (((deposit_amount/100)*interest_rate)/12)*deposit_term;
-            tax_amount = accrued_interest * (tax_rate / 100);
-            accrued_interest = accrued_interest - tax_amount;
-        }
-    deposit_end = accrued_interest + deposit_amount;
+std::vector<double> Model::DepositCalculations(
+    bool check, double deposit_term, double deposit_amount,
+    double interest_rate, double tax_rate, double replenishments_month,
+    double replenishments_sum, double partial_withdrawals_month,
+    double partial_withdrawals_sum) {
+  double accrued_interest = 0, tax_amount = 0, deposit_end = 0;
+  if (check) {
+    double accrued_month_interest = 0;
+    double month_tax_amount = 0;
+    for (int i = 0; i < deposit_term; i++) {
+      accrued_month_interest = (((deposit_amount / 100) * interest_rate) / 12);
+      month_tax_amount = accrued_month_interest * (tax_rate / 100);
+      accrued_month_interest = accrued_month_interest - month_tax_amount;
+      deposit_amount += accrued_month_interest;
+      accrued_interest += accrued_month_interest;
+      tax_amount += month_tax_amount;
+      if (i == replenishments_month && replenishments_sum > 0) {
+        deposit_amount += replenishments_sum;
+      }
+      if (i == partial_withdrawals_month && partial_withdrawals_sum > 0) {
+        deposit_amount -= partial_withdrawals_sum;
+      }
+    }
+  } else if (partial_withdrawals_month != 0 || replenishments_month != 0) {
+    double accrued_month_interest = 0;
+    for (int i = 0; i < deposit_term; i++) {
+      accrued_month_interest = (((deposit_amount / 100) * interest_rate) / 12);
+      accrued_interest += accrued_month_interest;
+      if (i == replenishments_month && replenishments_sum > 0) {
+        deposit_amount += replenishments_sum;
+      }
+      if (i == partial_withdrawals_month && partial_withdrawals_sum > 0) {
+        deposit_amount -= partial_withdrawals_sum;
+      }
+    }
+    tax_amount = accrued_interest * (tax_rate / 100);
+    accrued_interest = accrued_interest - tax_amount;
+  } else {
+    accrued_interest =
+        (((deposit_amount / 100) * interest_rate) / 12) * deposit_term;
+    tax_amount = accrued_interest * (tax_rate / 100);
+    accrued_interest = accrued_interest - tax_amount;
+  }
+  deposit_end = accrued_interest + deposit_amount;
   std::vector<double> rez = {accrued_interest, deposit_end, tax_amount};
   return rez;
 }

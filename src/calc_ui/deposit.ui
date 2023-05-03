@@ -48,7 +48,7 @@
     <rect>
      <x>10</x>
      <y>100</y>
-     <width>201</width>
+     <width>231</width>
      <height>41</height>
     </rect>
    </property>
@@ -76,7 +76,7 @@ QPushButton:pressed {
 </string>
    </property>
    <property name="text">
-    <string>Срок вклада:</string>
+    <string>Срок вклада (в месяцах):</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_6">
@@ -84,7 +84,7 @@ QPushButton:pressed {
     <rect>
      <x>480</x>
      <y>190</y>
-     <width>221</width>
+     <width>171</width>
      <height>41</height>
     </rect>
    </property>
@@ -115,30 +115,12 @@ QPushButton:pressed {
     <string>Сумма налога:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="deposit_term">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>100</y>
-     <width>191</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_18">
    <property name="geometry">
     <rect>
      <x>470</x>
      <y>410</y>
-     <width>201</width>
+     <width>131</width>
      <height>41</height>
     </rect>
    </property>
@@ -173,7 +155,7 @@ QPushButton:pressed {
    <property name="geometry">
     <rect>
      <x>480</x>
-     <y>250</y>
+     <y>240</y>
      <width>311</width>
      <height>41</height>
     </rect>
@@ -187,78 +169,6 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>Капитализация процентов</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="partial_replanishment_month">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>420</y>
-     <width>201</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_10">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>250</y>
-     <width>71</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>месяц</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="partial_withdraw_month">
-   <property name="geometry">
-    <rect>
-     <x>610</x>
-     <y>410</y>
-     <width>201</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="tax_ammount">
@@ -359,7 +269,7 @@ QPushButton:pressed {
     <rect>
      <x>470</x>
      <y>360</y>
-     <width>201</width>
+     <width>131</width>
      <height>41</height>
     </rect>
    </property>
@@ -413,7 +323,7 @@ QPushButton:pressed {
     <rect>
      <x>10</x>
      <y>370</y>
-     <width>201</width>
+     <width>141</width>
      <height>41</height>
     </rect>
    </property>
@@ -444,66 +354,12 @@ QPushButton:pressed {
     <string>Сумма:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="periodicity_of_payments">
-   <property name="geometry">
-    <rect>
-     <x>310</x>
-     <y>250</y>
-     <width>61</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_12">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>250</y>
-     <width>221</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>Периодичность выплат,</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
      <x>480</x>
      <y>120</y>
-     <width>221</width>
+     <width>171</width>
      <height>41</height>
     </rect>
    </property>
@@ -532,24 +388,6 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>Начисленные </string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="tax_rate">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>200</y>
-     <width>191</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_11">
@@ -660,24 +498,6 @@ QPushButton:pressed {
     <string>Процентная ставка:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="interes_rate">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>150</y>
-     <width>191</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -750,66 +570,12 @@ QPushButton:pressed {
     <string>Список частичных изъятий</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>250</y>
-     <width>81</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QWidget {
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;
-}
-
-QPushButton {
-	background-color: #232323;
-	border: none;
-}
-
-QPushButton:hover {
-	background-color: #666;
-}
-
-QPushButton:pressed {
-	background-color: #888;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>каждый</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="replenishments_sum">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>370</y>
-     <width>201</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_17">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>420</y>
-     <width>201</width>
+     <width>141</width>
      <height>41</height>
     </rect>
    </property>
@@ -840,48 +606,12 @@ QPushButton:pressed {
     <string>Какой месяц:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="withdraw_sum">
-   <property name="geometry">
-    <rect>
-     <x>610</x>
-     <y>360</y>
-     <width>201</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="deposit_amount">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>50</y>
-     <width>191</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">	border: 1px solid white;
-	color: white;
-	font-family: Rubik;
-	font-size: 18pt;
-	font-weight: 600;
-	margin-bottom: 4px;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
      <x>480</x>
      <y>70</y>
-     <width>221</width>
+     <width>171</width>
      <height>41</height>
     </rect>
    </property>
@@ -1024,40 +754,217 @@ QPushButton:pressed {
     <string>проценты:</string>
    </property>
   </widget>
+  <widget class="QDoubleSpinBox" name="deposit_amount">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>51</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <double>100.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>9999999.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="interes_rate">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>150</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <double>0.010000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>100.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="tax_rate">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>200</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="maximum">
+    <double>100.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="deposit_term">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>720</number>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="replenishments_sum">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>370</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <double>100.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>9999999.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="partial_replanishment_month">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>420</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>720</number>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="withdraw_sum">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>360</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <double>100.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>9999999.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="partial_withdraw_month">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>410</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	color: white;
+	font-family: Rubik;
+	font-size: 18pt;
+	font-weight: 600;
+	margin-bottom: 4px;</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>720</number>
+   </property>
+  </widget>
   <zorder>accured_interest</zorder>
   <zorder>label_2</zorder>
   <zorder>label_6</zorder>
-  <zorder>deposit_term</zorder>
   <zorder>label_18</zorder>
   <zorder>checkBox</zorder>
-  <zorder>partial_replanishment_month</zorder>
-  <zorder>label_10</zorder>
-  <zorder>partial_withdraw_month</zorder>
   <zorder>label_8</zorder>
   <zorder>label_9</zorder>
   <zorder>label_19</zorder>
   <zorder>deposit_end</zorder>
   <zorder>label_16</zorder>
-  <zorder>periodicity_of_payments</zorder>
-  <zorder>label_12</zorder>
   <zorder>label_7</zorder>
-  <zorder>tax_rate</zorder>
   <zorder>label_11</zorder>
   <zorder>label_5</zorder>
   <zorder>label_3</zorder>
-  <zorder>interes_rate</zorder>
   <zorder>label</zorder>
   <zorder>label_14</zorder>
-  <zorder>label_4</zorder>
-  <zorder>replenishments_sum</zorder>
   <zorder>label_17</zorder>
-  <zorder>withdraw_sum</zorder>
-  <zorder>deposit_amount</zorder>
   <zorder>label_15</zorder>
   <zorder>label_13</zorder>
   <zorder>pushButton_credit</zorder>
   <zorder>label_20</zorder>
   <zorder>tax_ammount</zorder>
+  <zorder>deposit_amount</zorder>
+  <zorder>interes_rate</zorder>
+  <zorder>tax_rate</zorder>
+  <zorder>deposit_term</zorder>
+  <zorder>replenishments_sum</zorder>
+  <zorder>partial_replanishment_month</zorder>
+  <zorder>withdraw_sum</zorder>
+  <zorder>partial_withdraw_month</zorder>
  </widget>
  <resources/>
  <connections/>

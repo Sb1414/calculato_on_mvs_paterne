@@ -9,20 +9,20 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    controller.cpp \
+    ../controller/controller.cpp \
     credit.cpp \
     deposit.cpp \
     main.cpp \
     mainwindow.cpp \
-    model.cpp \
+    ../model/model.cpp \
     qcustomplot.cpp
 
 HEADERS += \
-    controller.h \
+    ../controller/controller.h \
     credit.h \
     deposit.h \
     mainwindow.h \
-    model.h \
+    ../model/model.h \
     qcustomplot.h
 
 FORMS += \
