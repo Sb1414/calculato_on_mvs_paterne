@@ -18,7 +18,7 @@ build_s21_calc:
 	./test
 
 install:
-	mkdir build
+	mkdir -p build
 	cd calc_ui && qmake && make && make clean && rm Makefile && cd ../ && mv calc_ui/calc.app build
 	# open build/calc.app
 
